@@ -44,7 +44,7 @@ reader.onload = function () {
 
         // save the doc with todays date somewhere
         $.ajax({
-            url: "https://h3x59il8tl.execute-api.us-west-2.amazonaws.com/prod/",
+            url: "https://ynd3y29o12.execute-api.us-west-2.amazonaws.com/prod",
             type: "POST",
             data: JSON.stringify(doc),
             dataType: "json",
