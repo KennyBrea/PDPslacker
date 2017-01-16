@@ -4,8 +4,8 @@ var dynamodb = new doc.DynamoDB();
 var request = require('request');
 days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
 
-slackURL = 'https://hooks.slack.com/services/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';
-dynamoTableName = 'PDPslacker';
+slackURL = 'https://hooks.slack.com/services/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';
+dynamoTableName = 'PDPslackerTable';
 
 /*
  * Returns the jsDate of the Monday that starts the week that the input date is part of
